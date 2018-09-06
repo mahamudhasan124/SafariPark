@@ -1,0 +1,192 @@
+
+
+
+body{
+	margin: 0;
+	padding:0;
+}
+.container{
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{color:#242424;}
+
+.bd{
+	background-image: url('img/ticket.jpg');
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+.bx1{
+	background-image: url('img/bx1.jpg');
+	font-size: 40px;
+	/*background-repeat: no-repeat;*/
+
+}
+.midtxt{
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+}
+.para{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-family: cursive;
+}
+.normaltxt{
+	font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.entryticket{
+	/*background:linear-gradient(rgba(249, 247, 255, 0.65),
+        rgba(234, 243, 239, 0.71)), url(img/ticket.jpg);*/
+    background-color:green;
+}
+.toptxt{
+	text-align: center;
+	font-family: cursive;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bg{
+	background-image: url(img/bx1.jpg);
+	padding: 20px;
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/
+}
+.midd{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	line-height: 150px; 
+}
+.btn{
+	background-color: chocolate;
+	font-size: 20px;
+}
+
+@media (max-width: 557px)
+{
+    .bx1, .bx2{
+    font-size: 18px;
+    }
+    .para{
+    font-size: 12px;
+    padding-left: 10px;
+	padding-right: 10px;
+    }
+    .normaltxt{
+    font-size: 12px;
+    padding-left: 10px;
+    }
+    .midtxt{
+    	font-size: 20px
+    }
+    .toptxt{
+    	font-size: 20px;
+    }
+    .btn{
+    	font-size: 10px;
+    }
+    .carousel-inner{
+	height: 100px;
+	}
+
+}
+
+/*######################################*/
+
+.bd2{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/offer.jpg');
+}
+.offerbg{
+	background-color: coral;
+}
+.offermidd{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	line-height: 70px; 
+}
+/*################################*/
+
+.bd3{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/o.jpg');
+}
+
+/*.hightlightarea1{
+float: left;
+    width: 40%;
+    background: #350935;
+    color: white;
+    height: 1200px;
+}
+.hightlightarea2{
+	float: right;
+	width: 60%;
+}*/
+.bd4{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/d.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.bx2{
+	background-image: url('img/b.jpg');
+	font-size: 40px;
+}
+.carousel-inner{
+	height: 300px;
+}
+
+.bdpackage{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/H/c1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.bdrest{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/H/rest.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bx5{
+	background-image: url('img/H/w.jpg');
+	font-size: 40px;
+}
+
+.bdps{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/c.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bdparking{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	background-image: url('img/H/park2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}

@@ -1,0 +1,40 @@
+CREATE TABLE users(
+    user_id int AUTO_INCREMENT,
+    username varchar(30) NOT NULL,
+    userpassword varchar(30) NOT NULL,
+    useremail varchar(100) NOT NULL,
+	usermobile varchar(20) NOT NULL,
+    PRIMARY KEY (user_id),
+    UNIQUE(username),
+    UNIQUE (useremail)
+);
+
+
+CREATE TABLE package(
+    id INT AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    price INT NOT NULL,
+    details VARCHAR(255) NOT NULL,
+	category int NOT NULL;
+    PRIMARY KEY(id)
+);
+
+
+CREATE TABLE addtocart(
+    id INT AUTO_INCREMENT,
+    p_id INT NOT NULL,
+    u_id INT NOT NULL,
+    quantity INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY(p_id) REFERENCES package(id),
+    FOREIGN KEY(u_id) REFERENCES users(user_id)
+);
+
+
+CREATE TABLE ticket(
+    id INT AUTO_INCREMENT,
+    cata_gory INT NOT NULL,
+    catagory_name VARCHAR(255) NOT NULL
+    subdetails VARCHAR(255),
+	PRIMARY KEY (id)
+);
